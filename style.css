@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding : 0;
+    
+}
+h1{
+    letter-spacing: 6px;
+    color: whitesmoke;
+    border-bottom: 4px solid rgba(230, 144, 120, 0.634);
+}
+h1 span{
+    color:rgba(230, 144, 120, 0.634);
+
+}
+.container{
+    background-image : url("./img/bg3.jpg");
+    background-size: cover;
+    background-position: bottom ;
+    height : 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.clock{
+  font-size: 6rem;
+  color:rgba(230, 144, 120, 0.634);
+}
+
+button{
+    padding: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 67px;
+    cursor : pointer;
+    transition: 1s;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    margin: 30px
+}
+
+.start:hover{
+    background-color: rgb(235, 198, 153);
+    margin: 20px;
+}
+.stop:hover{
+    background-color: rgb(209, 126, 84);
+    margin: 20px;
+}
